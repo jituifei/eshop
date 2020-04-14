@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content_main{ 				
+	
+	}
+.content_main_nav{  
+	  height:36px;
+	  background:#DD2727;
+	  z-index:99;
+	  }     /*导航栏容器 over    导航栏及文字样式begin*/
+.navList {
+	width:1250px;
+	 margin: 0  auto;
+	}	  
+.navList li.list_itemContainer{
+	float:left;
+	line-height:36px;
+	border:0px solid #f0f;
+	position:relative;
+	z-index:99px;
+	}
+.navList li.list_itemContainer a.navList_item{
+	color:#fff;
+	display:inline-block;
+	width:100px;
+	text-align:center;      
+	z-index:9999;
+	} 
+.list_itemContainer img{
+	position:absolute;left:30px ; width:40px;height:10px; 
+
+	}
+#navList_itemSuper{ 
+	 
+	color:#ffe013}
+#navList_itemSort{
+	 	 
+
+	color:#fff
+	}
+
+
+ 				     /* 导航栏文字样式over   商品分类及超级运动会begin*/
+.list_itemContainer #goodsSort{
+	 position:absolute;
+	 z-index:999;
+	 width:200px; 
+	 height:500px;
+     background:#fff;
+	 opacity:0.9;
+	   }
+.goodsSort_item{
+	position: relative;
+	height: 31.2px;
+	line-height: 31.2px;
+	color: #000;
+	font-size: 14px;
+	padding-left:20px;
+	
+	}	    
+.goodsSort_item:hover{ 
+	background:#cb0c10 ;
+	color:#fff;
+	font-weight:bolder
+	}	
+	
+.list_itemContainer #superSport{
+	position:absolute; left:-100px;  
+	z-index:999; 
+	width:200px; 
+	height:500px; 
+	background:#000;
+	opacity:0.8;
+	color:#FFF;
+	}
+ 		
+.superSport_item{
+	border: 1px solid #cb0c10;
+	display: block;
+	width:152px;
+	height: 31px;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+	line-height: 29px;
+	overflow: hidden;
+	cursor:pointer;
+	margin:15.5px 0 0 20px;
+}
+.superSport_item:hover{background-color: #cb0c10;}
+
+.selecterSort{background-color: rgba(255,255,255,.85); color:#DD2727 !important}
+.selectedSuper{background-color: rgba(0,0,0,.7); color:#fff !important}
+
+							/* 左侧透明的商品分类及超级运动会 over */	
+
+ 											
+
+.content_main_logo{   					/* 中部大图片 begin*/
+	 
+	 border:px  solid #00f;
+	 position:relative;
+	 
+	 
+	 }
+.showLogo_container{ position:relative; 
+	margin:0  auto;
+	width:1423px;
+	height:500px; 	
+	border:  0px solid #0ff;
+	/*overflow:hidden;*/
+	} 	
+.showLogo_list{ 
+	width:1423px;
+	height:500px; 	
+	border: 2px solid #000
+	margin:0 auto;
+	}								
+.showLogo_list li.showLogo_item{		/* 容器里图片LOGO  begin*/
+	 position:absolute; left:-2px;
+	  }	 
+.showLogo_list li.showLogo_item img{
+	 
+	height:500px;
+	}
+.showLogo_container div.logoButton_container{				/* 底部容器及按钮 begin */	
+	 position:absolute; 
+	 top:450px;
+	 width:1423px; 
+	 height:20px; 
+	 border: px solid #000; 
+	 text-align:center
+	}
+.logoButton_container a{
+	 display:inline-block; 
+ 	 width:22px;
+	 height:22px;
+	 margin:0 9px 0 9px;
+	 }
+.logoButton img{
+	 width:22px;
+	 height:22px;
+	}
+.logo_rightNav{  		/* 	图片上右侧导航栏部分begin*/
+	position:absolute; 
+	top:0px; right:145px;
+	z-index:999; 
+	width:100px;; 
+	height:480px; 
+	background-color: rgba(0,0,0,.5);
+	color:#FFF;  
+	margin-top:10px;
+	font-size:13px;
+	text-align:center
+	  }
+.logo_rightNav:hover{    /* 鼠标移入右侧导航栏 */
+	 background-color: rgba(0,0,0,.7);
+	  
+	 font-size:14px;
+	 }
+
+.rightNav_logo{ 
+	  width:70px;
+	  height:70px;
+	  margin:0 auto; 
+	  border:px solid #f00;
+      margin-top:20px;
+	  }	 
+.rightNav_hello{ 
+	 color:#fff;
+	 margin:0 auto;
+	 width:70px; 
+	 height:70px;
+	 margin-top:20px;
+	 
+	 }
+.rightNav_hello a {
+    display:block;
+	width:71px;
+	height:21px; 
+	background-color:#f00;
+	border-radius: 12px;
+	margin-top:10px ;
+	color:#fff;
+	line-height:21px;
+	}
+.rightNav_privileges{ 
+	 color:#fff;
+	 margin:0 auto;
+	 width:70px; 
+	 height:70px;
+	 margin-top:25px;
+	 }
+.rightNav_privileges a{ 
+	display:block;
+	color:#FFF;
+	margin-top:5px;}
+.rightNav_activity{
+    margin-top:25px;
+	}	  
+.rightNav_activity img{    
+	height: 57px;
+    width: 57px;
+    margin: 17px auto 7px;
+    display: block;
+    border-radius: 28px;
+}
+.rightNav_activity span{ 
+	opacity:0.9; 
+	display:block; 
+	width:100px;
+    height:20px;
+	margin-top:10px;
+	} 
+/* content_main over!!! */	 

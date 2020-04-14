@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.bottom{
+    width:1420px;
+	height:583px;
+	border:0px  solid #00f
+	}
+
+.bottom_sever{
+	 
+	width:1200px; margin:auto;
+	height:385px;
+	border:0px  solid #f0f
+	}
+.bottom_sever a img{
+	 margin-top:50px;
+	 }
+
+.bottom_wordList { 
+	width:238px;
+	margin-top:30px;  
+	float:left;
+	margin-left:55px;
+	}	
+.bottom_wordList li a{
+	color:#999;
+	font-size:14px;
+	} 
+.bottom_intruduce{
+	height:198px;
+	border:0px  solid #0ff;
+	background:#000;
+	}
+.bottom_intruduce_list{
+	width:1200px;
+	margin:auto;
+	height:198px;
+	border:#FFF solid 0px;
+	
+	
+	}
+.bottom_list1 {
+	 float:left;
+	 width:1200px;
+	 margin:5px;
+	}
+.bottom_list1 li{
+	margin:5px;
+	color:#fff;
+	font-size:13px;
+	float:left;
+	color:#fff
+	}
+.bottom_intruduce_list p{
+	color:#666 !important; 
+	font-size:13px;
+	margin-left:10px;
+	}
+.bottom_intruduce_list div img{
+	margin-left:10px;
+	}
+/* bottom  over!!! */	

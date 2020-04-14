@@ -1,0 +1,141 @@
+ 
+@charset "utf-8";
+/* CSS Document */
+
+
+*{ margin:0 ; padding:0 }
+body{margin:auto;}
+a{ text-decoration:none;color:#000}
+a:hover{color:#DD2727}
+li{ list-style:none}
+img{ border:0}
+button{ border:0}
+
+
+.login_header{
+	heigth:96px
+	}
+.header_container{
+	margin-top:50px;
+	width:1300px;
+	height:96px;
+	margin:auto
+	}
+.header_container img{
+	margin-top:30px;
+	}
+															/*_header   over*/
+
+.login_mid{
+	height:654px;
+	background-color: rgb(238, 238, 238);
+	}
+
+.login_mid1{
+    height:601px;
+    background-color:rgb(90, 38, 138)
+}
+
+.mid_container{
+	width:1300px;
+	height:654px;
+	margin:auto;
+	background:url(../login%20img/backgroundimg.png) no-repeat;	
+	position:relative;
+	}
+
+.mid_container1{
+    width:1300px;
+    height:654px;
+    margin:auto;
+    background:url(../login%20img/backgroundimg1.jpg) no-repeat;
+    position:relative;
+}
+
+
+
+.login_container{
+	position:absolute;
+	right:0px; top:50px;
+	background:#fff; 
+	width:400px;
+	height:470px;
+	}
+form.container{
+	width:360px; 
+	height:350px; 
+	border:#000 0px solid; 
+	margin:50px 0 0 25px;
+	}
+.container div{ height:18px; position:relative; margin-top:30px;}
+.container div img{
+	position:absolute; top:0px;
+	}
+.container div input{
+	width: 240px;
+	font-size: 14px;
+	line-height: 18px;
+	height: 18px;
+	padding: 11px 8px 11px 50px;
+	border: 1px solid #ddd;
+	}
+	
+#loginButton{
+	width: 300px;		
+	height: 42px;
+	line-height: 42px;
+	background: #AF0000
+	
+	}
+#loginButton {
+ 
+ 
+font-size: 19px;
+font-weight: 700;
+color: #fff;
+	}
+.container a{
+	color:#000;
+	margin-right:20px;
+	float:right
+	}
+.bottom{
+
+	border:0px  solid #00f
+	}
+
+ 
+.bottom_intruduce{
+
+	border:0px  solid #0ff;
+	 
+	}
+.bottom_intruduce_list{
+	width:1200px;
+	margin:auto;
+	height:120px;
+	border:#FFF solid 0px;
+	
+	
+	}
+.bottom_list1 {
+	 float:left;
+	 width:1200px;
+	 margin:5px;
+	}
+.bottom_list1 li{
+	margin:5px;
+	 
+	font-size:13px;
+	float:left;
+	 
+	}
+.bottom_intruduce_list p{
+	 
+	font-size:13px;
+	margin-left:10px;
+	}
+.bottom_intruduce_list div img{
+	margin-left:10px;
+	}
+/* bottom  over!!! */	

@@ -1,0 +1,363 @@
+@charset "utf-8";
+/* CSS Document */
+
+.goods_activity{
+   
+	height:359px;
+	border:#ff0  px  solid;
+	 
+	}
+.goods_activityHeader{
+	
+	}	
+.goods_activityLogo img{
+	width:238px;
+	height:269px;
+    margin:0 9px;
+	opacity:1;
+	}
+
+.goods_activityLogo img:hover{  }
+.activityLogo_container{
+	width:1050px;
+	margin:  0 auto;
+	height:269px;
+	border:#000 0px solid;
+	}	
+	                                              /* goods_activity --over*/
+	
+	
+	
+	
+.goods_hotBrands{
+	width:1420px;
+	margin:0 auto;
+	height:402px;
+	border:0px  solid #00f;
+	 
+	}
+.brand_today{
+	background:url(../index%20img/hot%20brands%20img/brand%20of%20the%20day.jpg);
+	width:245px; 
+	height:367px; 
+	border:#000 0px solid;
+	float:left; 
+	margin:0 0 0 85px  
+	}
+.brand_list{ 
+	width:732px; 
+	height:367px;  
+	float:left;
+	}
+	
+.brand_list ul li{ 
+	list-style:none; 
+	width:122px; 
+	height:92px;  
+	float:left; 
+	position:relative
+	}
+.brand_list ul li a{ 
+    margin-top:8px;
+	display: inline-block;
+	color: #fff;	
+	width: 63px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 16px;
+	background-color: red;
+	border-radius: 9px;
+	}
+.brand_list ul li img{
+	margin: 21px 11px; 
+	}
+.brand_list ul li span{
+	   color:#fff; 
+	   display:inline-block; 
+	   width:121px;
+	   height:91px;
+	   text-align:center;
+	   position:absolute;left:0px;
+	   z-index:99;
+	   background:#000;
+	   opacity:0.8; 
+	   display:none;
+	   font-size:12px;  
+	   }													   /* brand_list --over*/
+	
+.recommend_list{
+	 width:230px;
+	 height:367px;  
+	 float:left;
+	 margin-left:5px;;
+	}
+.recommend_list ul li{
+	width:240px; 
+	height:92px;
+	text-align: center;
+	background-color: #fff;
+	float: left;
+	}
+.recommend_list ul li a{
+	display:inline-block; 
+	width:210px; 
+	height:74px; 
+	margin:5px 11px; 
+	bac0kground:#f00;
+	font-size:12px;
+	color:#000;
+	}	
+	
+.recommend_list ul li a:hover{
+color: #dd2727;	
+	}
+.recommend_list ul li a img{
+	width:80px; 
+	height:40px; 
+	margin-top:18px;
+	float:left;
+	} 													/*recommend_list  over*/
+											
+														/*goods_hotBrands  over*/
+
+	
+.goods_channel{
+	width:1420px;
+	margin:100px auto;
+	height:500px;
+	border: px  solid #00f;
+	 
+	}
+.channel_briefword{ 	 
+	margin-left:86px;
+	width:500px;
+	float:left; 	
+	}
+.channel_briefword i.channel{
+	float:left; 
+	width:5px; 
+	height:20px;
+	}
+
+.channel_briefword span.briefword_title{
+	display:inline-block;
+	 
+	height:20x;
+	line-height:20px;
+	font-size:18px;
+	margin-left:10px;
+	border:#000 solid  px;
+	}
+.channel_briefword span.briefword_title_sub{
+	display:inline-block;
+	 
+	height:20x;
+	line-height:20px;
+	font-size:14px;
+	margin-left:10px;
+	border:#000 solid  px;
+	}	
+.channel_header ul{ 
+	float:right; margin-right:115px;
+	}
+.channel_header ul li{ 
+	text-decoration:none;
+	height: 20px;
+	line-height: 20px;
+	margin: 5px 10px;
+	font-size: 14px;
+	border: 0;
+	border-bottom: 1px solid #f5f5f5;
+	float:left;
+	text-decoration:none
+	 
+		 }
+.channel_header ul li a{
+	color:#000;
+	font-size:14px;
+	}
+.channel_header ul li a:hover{
+	border-bottom:#000 1px solid;
+	}
+.channel_logo1{
+	 
+	width:245px; 
+	height:367px; 
+	border:#000 0px solid;
+	float:left; 
+	margin:0 0 0 85px ;
+	
+	}
+.channel_logo1 img{
+	opacity:1;
+	width:246px; height:330px;
+	}	
+.channel_ad{
+	width:245px;
+	height:30px;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	
+	}
+.channel_ad_two{
+	margin-top:20px;
+	color:#fff;
+	font-size:22px;
+	font-weight:700;
+	}
+.channel_ad_three{
+	color:#fff;
+	font-size:18px;
+	 
+	}	
+.channel_logo2{
+	width:246px;
+	height:109px; 
+	border:#000 solid 0px;
+	background:url(../index%20img/KIDS%20&%20BABY%20img/index.png) no-repeat 50px 77px  #F7A945;
+	}															/* channel_left  over */
+.channel_list{
+    margin-top:27px; 
+	width:732px; 
+	height:367px;  
+	float:left;
+	}
+	
+.channel_list ul li{ 
+	list-style:none; 
+	width:244px; 
+	height:221px;  
+	float:left;
+	background:#fff; 
+	position:relative
+	}
+
+.channel_item img{
+	width:154px; 
+	height:154px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	}
+
+p.channel_itemTitle{
+	height:24px;
+	line-height:24px;
+    margin-top:10px;
+	font-size:18px;
+	margin-left:28px;
+	color:#000
+	}
+p.channel_itemTitle_sub{
+	margin-top:5px;
+	height:18px;
+	line-height:18px;
+	font-size:14px;
+	margin-left:28px;
+	
+	}
+
+.channel ul li span{
+	   color:#fff; 
+	   display:inline-block; 
+	   width:121px;
+	   height:91px;
+	   text-align:center;
+	   position:absolute;left:0px;
+	   z-index:99;
+	   background:#000;
+	   opacity:0.8; 
+	   display:none;
+	   font-size:12px;  
+	   }													   /* channel mid --over*/
+	
+.channel_recommend_list{
+	 margin-top:5px;   
+	 width:230px;
+	 height:367px;  
+	 float:left;
+	 margin-left:5px;;
+	}
+.channel_recommend_list ul li{
+	width:249px; 
+	height:147px;
+	list-style:none; 
+	margin-top:0px; 
+	float:left;
+	background:#fff; 
+	position:relative
+	}
+ 
+ 
+.channel_recommend_list ul li a img{
+	width:100px; 
+	height:100px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	 
+	} 															/* channel_right  over */
+ 
+
+
+
+ 
+/* content_goods over!!! */	
+
+
+#channelStripe1{
+	background:#F7A945; 
+	}
+#channelStripe12{
+	background:#19C8A9; 
+	}
+#channelStripe13{
+	background:#64C333 ; 
+	}	
+#channelStripe14{
+	background:#0AA6E8;
+	}
+#channelStripe15{
+	background:#EA5F8D;
+	}
+	
+		
+	
+p#kidsAbaby{
+	color:#F7A945;
+	}
+p#outdoor{
+	color:#19C8A9;
+	}
+p#homeLife{
+	color:#64C333;
+	}
+p#electronics{
+	color:#0AA6E8;
+	}
+p#beauty{
+	color:#EA5F8D
+	}	
+	
+#channel_bottomLogo2{
+	background:#19C8A9 url(../index%20img/KIDS%20&%20BABY%20img/index.png) no-repeat 50px 77px !important;
+	}
+#channel_bottomLogo3{
+	background:#64C333 url(../index%20img/KIDS%20&%20BABY%20img/index.png) no-repeat 50px 77px !important;
+	}
+#channel_bottomLogo4{
+	background:#0AA6E8 url(../index%20img/KIDS%20&%20BABY%20img/index.png) no-repeat 50px 77px !important;
+	}
+#channel_bottomLogo5{
+	background:#EA5F8D url(../index%20img/KIDS%20&%20BABY%20img/index.png) no-repeat 50px 77px !important;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	

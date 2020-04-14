@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+.suspend_search{												/* 中部搜索栏样式*/
+	position:fixed;
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	background:#DD2727;
+	opacity:0.9;
+	z-index:9999; 
+	display:none;
+	 }
+.suspend_search div{
+	width:1253px; 
+	height:50px; 
+	position:relative; 
+	margin:0 auto; 
+	}
+#suspend_searchText{ 
+	width:640px; 
+	height:30px; 
+	border:0px solid #000; 
+	position:absolute; top:10px; left:247px;
+	}
+#suspend_searchText_button{ width:132px;
+	height:30px;
+	display:inline-block;
+	background:#c40000;
+	text-align:center;
+	line-height:30px;
+ 	color:#FFF;	 
+	position:absolute;
+    top:10px; left:887px;
+	
+	}
+
+.suspend_nav{ 													/* 左侧导航栏样式*/
+	width:35px; 
+	height:252px; 
+	position:fixed; 
+	bottom:167px; left:42px; 
+	background:#fff;
+	z-index:9999;
+	display:none;
+	}
+	
+.suspend_nav ul li{
+	width:35px; 
+	height:35px; 
+	background:#666; 
+	color:#fff;
+	
+	line-height:16px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 1px;
+	font-size: 12px;
+	}
+#suspend_itemBtn1:hover{
+	background:#F7A945 !important;
+	}
+#suspend_itemBtn2:hover{
+	background:#19C8A9 !important;
+	}
+#suspend_itemBtn3:hover{
+	background:#64C333 !important;
+	}
+#suspend_itemBtn4:hover{
+	background:#0AA6E8 !important;
+	}
+#suspend_itemBtn5:hover{
+	background:#EA5F8D !important;
+	}	
+.suspend_nav span{ 
+ 	display:inline-block;
+	width:35px; 
+	height:35px; 
+	background:#666; 
+	color:#fff;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 1px;
+	font-size: 12px;
+	}
+#suspend_navBtn{
+    line-height:35px;
+	background:#DD2727;
+	}
+#suspend_navBack{
+	line-height:16px;
+	background:#999
+	}
+
+
+
+.suspend_login{ 												/* 右侧个人登录栏样式*/
+
+	width:34px; 
+	height:100%; 
+	position:fixed; 
+	background:#000;right:0;
+	z-index:9999
+	}
+.suspend_login ul{ margin-top:40px;}	
+.suspend_login ul li{
+	text-align:center;
+   	border: px solid #ff0;
+	margin-top:10px;
+	
+	}
+.suspend_login ul li:hover{ 
+	background:#DD2727;
+	}
+#suspend_login_buyCar{
+	color:#fff;
+	font-size:13px
+	
+	}
